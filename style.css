@@ -1,0 +1,341 @@
+/* General Styles */
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  h4{
+    font-size: 50px;
+    color: #521e4e;
+  }
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  
+  #container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 px;
+    
+  }
+  
+  /* Header Styles */
+  header div{
+    background-color: #dedeaf;
+  }
+header div{
+   color: #333;
+    height: 100px;
+    line-height: 100px;
+    width:auto;
+    border-bottom: 2px solid #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  #logo {
+    float: left;
+  }
+  
+  #logo a {
+    font-size: 30px;
+    font-weight: bold;
+    color: #641717;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav li:first-child {
+    margin-left: 0;
+  }
+  
+  nav a {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  nav a:hover {
+    color: #f00;
+    text-decoration: underline;
+  }
+  
+  nav form {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  nav button[type="submit"] {
+    padding: 5px 10px;
+    border: none;
+    background-color: #f00;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Banner Styles */
+  #banner {
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    color: #20168d;
+    font-size: 40px;
+    padding-top: 150px;
+    box-shadow: 0 2px 5px rgba(0, 9, 9, 0.1);
+  }
+  #container1{
+     text-align:center;
+    
+  }
+  #banner h2 {
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+    
+  }
+  
+  #banner p {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color:#ba2c9b;
+    text-align:center;
+  }
+  h4{
+    text-align:center;
+    font-family: papyrus;
+    font-weight:bold;
+    color:#47117e;
+    font-size:60px;
+  }
+  /* Books Styles */
+  #books {
+    padding: 50px 0;
+   background: linear-gradient(to bottom, #e26fbd, #cfdf58);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex:1;
+  flex-direction: row;
+  }
+  #container1 h2{
+    font-family:Brush Script MT;
+    font-size:120px;
+    color:#1a4e7f;
+    margin-left:-20px;
+    text-align:left;
+  }
+#container1 p
+{
+  font-family:Lucidatypewriter;
+  font-size:38px;
+  color:#76196e;
+  text-align:left;
+  margin-left:50px;
+}
+  .book {
+    display: inline-block;
+    margin-right: 60px;
+    vertical-align: top;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border:4px solid #cfdf58;
+    font-size:20px;
+   
+  }
+  
+  .book:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    color:#a8053e;
+  }
+  
+    
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  margin: 0;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+article {
+  width: 30%;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  
+  flex:1;
+  flex-direction: row;
+  
+}
+
+
+@media screen and (max-width: 768px) {
+  /* Styles for small screens */
+  body {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for medium screens */
+  body {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  /* Styles for large screens */
+  body {
+    font-size: 30px;
+  }
+}
+
+#banner{
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 100px;
+   background-image: url("https://goodcities.net/wp-content/uploads/2017/11/stack-of-books.jpg");
+   min-width:50%;
+  max-width: 100%;
+  
+max-height:100%;
+  margin-top:-60px;
+  margin-bottom:-10px;
+  background-repeat: no-repeat;
+  
+}
+
+
+
+
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+footer{
+  text-align:center;
+  
+ 
+}
+.con{
+  background-color: #ffffff;
+}
+#info{
+ color:#163479; 
+  font-size:26px;
+  text-decoration: italic;
+  font-family:MV Boli;
+}
+#contact{
+  color:#f1eaeb;
+  background-color: black;
+}
+
+#branding h2
+{
+  font-family:cursive;
+}

@@ -1,0 +1,114 @@
+/* Reset styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header, footer {
+    background-color: #e0f8fb;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    color: #1a2323;
+  }
+  
+  nav {
+    background-color: #111212;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav a {
+    display: block;
+    color: #f1e4ea;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:20px;
+  }
+  
+  nav a:hover {
+    background-color: #2a49e5;
+    color: #FFFFFF;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  form label {
+    display: inline-block;
+    width: 100px;
+    color:#2c2626;
+    font-size:24px;
+  }
+  
+  form input[type="text"], form input[type="email"], form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #4B0082;
+    border-radius: 4px;
+    
+    box-sizing: border-box;
+  }
+  
+  form input[type="submit"] {
+    background-color: #4B0082;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #F5DEB3;
+    color: #4B0082;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+main h2{
+  color:#0b6563;
+  font-size:30px;
+}
+main{
+  background-image: url("https://wallpaperaccess.com/full/2489630.jpg");
+  background-size: cover;
+  background-attachment:fixed;
+  
+  width:100%;
+}
+main p{
+  color:#131010;
+  font-size:26px;
+}
+footer p{
+  font-size:26px;
+  text-decoration:underline ;
+}
+
+footer{
+  color:#f5f5f5;
+  background-color: #29296a;
+}

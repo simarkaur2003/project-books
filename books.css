@@ -1,0 +1,210 @@
+/* General Styles */
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+  }
+.container h2
+{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:#107375;
+  font-size:38px;
+  letter-spacing:0.6px;
+  word-spacing:2px;
+}
+  
+  /* Header Styles */
+  header {
+    background-color: #0a1957;
+    color: #fdf7f7;
+      margin-bottom:-30px;
+    height: 150px;
+    line-height: 100px;
+    border-bottom: 2px solid #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #logo {
+    float: left;
+    
+  }
+  
+  #logo a {
+    font-size: 70px;
+    font-weight: bold;
+    color: #f8f7f7;
+  
+    font-family:Brush Script MT;
+  }
+  
+  nav {
+    float: right;
+    
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav li:first-child {
+    margin-left: 0;
+  }
+  
+  nav a {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  nav a:hover {
+    color: #f00;
+    text-decoration: underline;
+  }
+  
+  nav form {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  nav button[type="submit"] {
+    padding: 5px 10px;
+    border: none;
+    background-color: #f00;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Banner Styles */
+  #banner {
+    background-image: url("https://i1.wp.com/www.lifeofanarchitect.com/wp-content/uploads/2010/05/Library-Books_0.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    
+    height:500px;
+    
+    text-align: center;
+    
+    color: #221c40;
+    padding-top: 150px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #banner h2 {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color:#59a1c5;
+    margin-top:-170px;
+    text-align:center;
+  }
+  
+  #banner p {
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    color:#ece4b1;
+  }
+  
+  /* Books Styles */
+  #books {
+    padding: 50px 0;
+    background: linear-gradient(to bottom, #9ce189, #f56674);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .book {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+    width: 204px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border:4px solid #fffff0;
+  }
+  
+  .book:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+
+
+
+
+
+.book::after {
+  content: "Sale!";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #4a82a5;
+  color: #fff;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.discounted-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2e3952;
+  margin: 10px 0;
+  text-decoration: line-through;
+}
+
+
+.book {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+
+.book-sale {
+  background: linear-gradient(to right, #cdaedb, #428db3);
+  color: #130101;
+  padding: 20px;
+  text-align: center;
+}
+
+.book-sale h2 {
+  font-size: 60px;
+  margin-bottom: 10px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:#aa0e25;
+}
+
+.book-sale p {
+  font-size: 30px;
+  font-weight:bold;
+}
